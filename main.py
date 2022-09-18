@@ -61,7 +61,7 @@ def submit(s: requests.Session):
         "dqqk2": "1",                        # current situation      1.无异常
         "dqqk2qt": "",
         # 昨天是否接受核酸检测
-        "sfjshsjc": "1",                     # PCR test?       1.是 0.否
+        "sfjshsjc": "0",                     # PCR test?       1.是 0.否
         # 第一针接种
         "dyzymjzqk": "1",                    # first vaccination situation  3.已接种
         "dyzjzsj": "2021-06-06",             # date of first vaccination
