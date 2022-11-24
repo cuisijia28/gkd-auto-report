@@ -12,7 +12,7 @@ PUSH_TOKEN = os.environ["PUSH_TOKEN"]
 
 
 def login(s: requests.Session):
-    r = s.post("https://app.ucas.ac.cn/uc/wap/login/check", data={
+    r = s.post("https://app.ucas.ac.cn/uc/wap/login", data={
         "username": GKD_EMAIL,
         "password": GKD_PASSWORD
     })
